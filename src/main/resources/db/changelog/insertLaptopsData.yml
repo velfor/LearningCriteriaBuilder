@@ -1,0 +1,74 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: yourname
+      changes:
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: "Laptop 1"
+              - column:
+                  name: brand
+                  value: "Brand A"
+              - column:
+                  name: model
+                  value: "Model X"
+              - column:
+                  name: sku
+                  value: "SKU001"
+              - column:
+                  name: price
+                  valueNumeric: 999.99
+              - column:
+                  name: description
+                  value: "Description for Laptop 1"
+              - column:
+                  name: weight
+                  valueNumeric: 2.5
+              - column:
+                  name: dimensions_width
+                  valueNumeric: 35.0
+              - column:
+                  name: dimensions_height
+                  valueNumeric: 2.0
+              - column:
+                  name: dimensions_depth
+                  valueNumeric: 25.0
+              - column:
+                  name: color
+                  value: "Black"
+              - column:
+                  name: operating_system
+                  value: "Windows 10"
+              - column:
+                  name: processor
+                  value: "Intel i7"
+              - column:
+                  name: ram_size
+                  valueNumeric: 16
+              - column:
+                  name: storage_capacity
+                  valueNumeric: 512
+              - column:
+                  name: storage_type
+                  value: "SSD"
+              - column:
+                  name: screen_size
+                  valueNumeric: 15.6
+              - column:
+                  name: screen_resolution
+                  value: "1920x1080"
+              - column:
+                  name: battery_capacity
+                  value: "47 W*h"
+              - column:
+                  name: graphic_card
+                  value: "NVIDIA GTX 1650"
+              - column:
+                  name: type
+                  value: "LAPTOP"
+              - column:
+                  name: has_webcam
+                  value: true
