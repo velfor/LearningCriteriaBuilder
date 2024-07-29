@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/createTableLaptops.yml
+
+  - include:
+      file: db/changelog/insertLaptopsData.yml
